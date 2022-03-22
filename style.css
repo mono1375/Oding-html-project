@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    opacity: 0.5;
+    gap:20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color:#F9FAF8;
+
+}
+.header{
+    background: #1f2937;
+    display: flex;
+    color:#F9FAF8;
+    justify-content:space-between;
+    padding: 0px 16px;
+}
+.header.title{
+    padding: 24px;
+    background-color: #F9FAF8;
+
+}
+
+
+.container{
+    flex:1;
+    display: flex;
+}
+.footer{
+    display:flex;
+
+}
