@@ -8,15 +8,15 @@
     <title>FlotaMedia</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header unselectable ">
         <div class="navbar">
 
             <h1 class="title unselectable" >Flota Media</h1>
     
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#Social_Media">Social Media</a></li>
+                <li> <a href="#media">Media</a></li>
                 <li><a href="#about-me">About me</a></li>
-                <li > <a href="#media">Media</a></li>
             </ul>
         </div>
 
@@ -30,33 +30,59 @@
         </div>
 
     </div>
-    <div class="container">
-        <div class="content1" class="contact">
-            <div class="SocMedia">
-                <img class="icon" src="./src/icon/facebook.png" alt="facebook">
-                <a href="">facebook</a>
+    <div class="unselectable container">
+        <div class="content1" id="Social_Media">
+            <div class="unselectable SocMedia">
+                <img class="icon unselectable" src="./src/icon/facebook.png" alt="facebook">
+                <a href="https://www.facebook.com/kemil.belcaries"  target="blank">facebook</a>
                 
             </div>
-            <div class="SocMedia">
-                <img class="icon" src="./src/icon/twitter.png" alt="twitter">
-                <a href="">Twitter</a>
+            <div class=" unselectable SocMedia">
+                <img class="icon unselectable" src="./src/icon/twitter.png" alt="twitter">
+                <a href="https://twitter.com/mon1374"  target="blank">Twitter</a>
                 
             </div>
-            <div class="SocMedia">
-                <img class="icon" src="./src/icon/youtube.png" alt="youtube">
-                <a href="">youtube</a>
+            <div class="SocMedia unselectable">
+                <img class="icon unselectable" src="./src/icon/youtube.png" alt="youtube">
+                <a href="https://www.youtube.com/channel/UCbbu__m3nqeoM5Zu_2fUfLw"  target="blank">youtube</a>
                
             </div>
-            <div class="SocMedia">
-                <img class="icon" src="./src/icon/github.png" alt="GitHub">
-                <a href="">gitHub</a>
+            <div class="SocMedia unselectable">
+                <img class="icon unselectable" src="./src/icon/github.png" alt="GitHub">
+                <a href="https://github.com/mono1375" target="blank">gitHub</a>
                 
             </div>
         </div>
-        <div class="content2" id="media"></div>
-        <div class="content3" id="about-me"></div>
+        <div class="content2" id="media">
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLKBTV3d7wAryl4xYWQog6BuNAO9fhEYEr" title="My Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="content3" id="about-me">
+            <h3>Contact Form</h3>
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="Honduras">Honduras</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <p>Made by: Kemil Belcaries: </p> 
+        <a href="mailto:belcaries@gmail.com"> belcaries@gmail.com</a>
+    </div>
 
 
     <script src="app.js"></script>
