@@ -74,6 +74,7 @@ li a:hover{
     align-content: center;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .intro{
     display: flex;
@@ -107,7 +108,17 @@ li a:hover{
     color: rgb(255, 255, 255);
 
 }
+iframe{
+    display:block;
+    width:100%;
+}
 
+ .media{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    padding-top: 0.56px;
+}
 
 /* This is the seconde page given to the end user */
 .container{
@@ -188,6 +199,10 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 20px;
   }
+
+.content2,.intro,.media{
+    flex-shrink: 1;
+}
 
 /* This is the footer */
 .footer{
